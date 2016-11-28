@@ -1,0 +1,18 @@
+<div class="swiper-container guide" id="swiper-container">
+	<div class="swiper-wrapper">
+	    <div class="swiper-slide blue-slide">
+	    	<img src="./src/images/slide1.png" alt="">
+	    </div>
+	    <div class="swiper-slide red-slide">
+	    	<img src="./src/images/slide2.png" alt="">
+	    </div>
+	    <div class="swiper-slide orange-slide">
+	    	<img src="./src/images/slide3.png" alt="">
+	    </div>
+	    <div class="swiper-slide orange-slide">
+	    	<img src="./src/images/slide4.png" alt="">
+	    	<p class="button" action-type="go.index">
+	    	</p>
+	    </div>
+   </div>
+</div>

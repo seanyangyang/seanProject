@@ -1,0 +1,49 @@
+.m-container{
+	font-size: .14rem;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	@include flexbox();
+	@include flex-direction(column);
+}
+.m-wrapper{
+	overflow-y:auto;
+	flex:1;
+	width: 100%;
+	position: relative;
+}
+.footer{
+	width: 100%;
+	height: .44rem;
+	z-index:99990;
+	background:#fff;
+	ul{
+		@include flexbox();
+		@include border(1px 0 0 0,#ccc);
+		li{
+			text-align: center;
+			@include flex();
+			@include flexbox();
+			@include flex-direction(column);
+			&:nth-child(3){
+				position: relative; 
+				i{
+					position: absolute!important;
+					left:50%;
+					top:-0.1rem;
+					-webkit-transform:translate(-50%,0);
+					width: 0.52rem;
+					height: 0.52rem;
+					border-radius: 50%;
+					background: #fff;
+					border: 1px solid #ccc;
+					font-size: 0.3rem;
+					z-index: 10000;
+				}								
+			}
+			&.active{
+					color: #519765;
+				}
+		}
+	}
+}
