@@ -10,6 +10,7 @@ require("./views/index");
 require("./views/home");
 require("./views/find");
 require("./views/my");
+require("./views/login");
 
 
 SPA.config({
