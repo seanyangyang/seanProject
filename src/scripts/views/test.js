@@ -1,0 +1,1 @@
+console.log("考试着呢no.2")
